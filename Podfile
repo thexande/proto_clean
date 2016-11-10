@@ -8,8 +8,7 @@ target 'proto' do
 
   # Pods for proto
   # pod 'Firebase'
-    pod 'Player'
-
+    pod "Player", "~> 0.2.0"
 
   target 'protoTests' do
     inherit! :search_paths
