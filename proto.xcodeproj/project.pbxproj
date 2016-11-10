@@ -52,6 +52,10 @@
 		B05A06A41DD5398100CE514D /* MKRingProgressGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A068B1DD5398100CE514D /* MKRingProgressGroupView.swift */; };
 		B05A06A51DD5398100CE514D /* MKRingProgressGroupVotingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A068C1DD5398100CE514D /* MKRingProgressGroupVotingView.swift */; };
 		B05A06A71DD539A800CE514D /* VideoCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06A61DD539A800CE514D /* VideoCameraViewController.swift */; };
+		B05A06AC1DD53AA100CE514D /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06A91DD53AA100CE514D /* ImageHelper.swift */; };
+		B05A06AD1DD53AA100CE514D /* VideoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06AA1DD53AA100CE514D /* VideoHelper.swift */; };
+		B05A06AE1DD53AA100CE514D /* ViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06AB1DD53AA100CE514D /* ViewHelper.swift */; };
+		B05A06B21DD53AE200CE514D /* ModalViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06B11DD53AE200CE514D /* ModalViewControllerDelegate.swift */; };
 		DFDCB47CEF950A2BAD967301 /* Pods_proto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698E0B2B5D162E8F18556010 /* Pods_proto.framework */; };
 /* End PBXBuildFile section */
 
@@ -130,6 +134,10 @@
 		B05A068B1DD5398100CE514D /* MKRingProgressGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKRingProgressGroupView.swift; sourceTree = "<group>"; };
 		B05A068C1DD5398100CE514D /* MKRingProgressGroupVotingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKRingProgressGroupVotingView.swift; sourceTree = "<group>"; };
 		B05A06A61DD539A800CE514D /* VideoCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCameraViewController.swift; sourceTree = "<group>"; };
+		B05A06A91DD53AA100CE514D /* ImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageHelper.swift; path = Helpers/ImageHelper.swift; sourceTree = "<group>"; };
+		B05A06AA1DD53AA100CE514D /* VideoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoHelper.swift; path = Helpers/VideoHelper.swift; sourceTree = "<group>"; };
+		B05A06AB1DD53AA100CE514D /* ViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewHelper.swift; path = Helpers/ViewHelper.swift; sourceTree = "<group>"; };
+		B05A06B11DD53AE200CE514D /* ModalViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModalViewControllerDelegate.swift; path = Protocols/ModalViewControllerDelegate.swift; sourceTree = "<group>"; };
 		EDDC1D1E7CEC64A24580297E /* Pods-proto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proto.release.xcconfig"; path = "proto/Configuration/Pods/Target Support Files/Pods-proto/Pods-proto.release.xcconfig"; sourceTree = "<group>"; };
 		F288DDD949D591419079C4F9 /* Pods-protoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-protoUITests.release.xcconfig"; path = "proto/Configuration/Pods/Target Support Files/Pods-protoUITests/Pods-protoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -210,6 +218,8 @@
 		B05A06101DD5368400CE514D /* proto */ = {
 			isa = PBXGroup;
 			children = (
+				B05A06B01DD53AD100CE514D /* Protocols */,
+				B05A06A81DD53A2500CE514D /* Helpers */,
 				B05A06471DD5387700CE514D /* Libraries */,
 				B05A06421DD5371600CE514D /* Application */,
 				B05A06411DD536FC00CE514D /* Configuration */,
@@ -397,6 +407,24 @@
 			);
 			name = MKRingProgressGroup;
 			path = Libraries/MKRingProgressGroup;
+			sourceTree = "<group>";
+		};
+		B05A06A81DD53A2500CE514D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B05A06A91DD53AA100CE514D /* ImageHelper.swift */,
+				B05A06AA1DD53AA100CE514D /* VideoHelper.swift */,
+				B05A06AB1DD53AA100CE514D /* ViewHelper.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		B05A06B01DD53AD100CE514D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B05A06B11DD53AE200CE514D /* ModalViewControllerDelegate.swift */,
+			);
+			name = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -677,6 +705,7 @@
 				B05A069B1DD5398100CE514D /* ConfirmViewController.swift in Sources */,
 				B05A06A21DD5398100CE514D /* MKRingProgressGroupButton.swift in Sources */,
 				B05A06661DD5397000CE514D /* NextLevel.swift in Sources */,
+				B05A06AC1DD53AA100CE514D /* ImageHelper.swift in Sources */,
 				B05A06A31DD5398100CE514D /* MKRingProgressGroupResultsView.swift in Sources */,
 				B05A06A01DD5398100CE514D /* ImageCell.swift in Sources */,
 				B05A066E1DD5397700CE514D /* MKRingProgressView.swift in Sources */,
@@ -697,6 +726,8 @@
 				B05A06981DD5398100CE514D /* VolumeControl.swift in Sources */,
 				B05A06A51DD5398100CE514D /* MKRingProgressGroupVotingView.swift in Sources */,
 				B05A06901DD5398100CE514D /* CameraShot.swift in Sources */,
+				B05A06B21DD53AE200CE514D /* ModalViewControllerDelegate.swift in Sources */,
+				B05A06AD1DD53AA100CE514D /* VideoHelper.swift in Sources */,
 				B05A06911DD5398100CE514D /* ImageFetcher.swift in Sources */,
 				B05A06A11DD5398100CE514D /* PermissionsView.swift in Sources */,
 				B05A06951DD5398100CE514D /* UIButtonExtensions.swift in Sources */,
@@ -705,6 +736,7 @@
 				B05A06A41DD5398100CE514D /* MKRingProgressGroupView.swift in Sources */,
 				B05A069A1DD5398100CE514D /* CameraViewControllerConstraint.swift in Sources */,
 				B05A068F1DD5398100CE514D /* CameraGlobals.swift in Sources */,
+				B05A06AE1DD53AA100CE514D /* ViewHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
