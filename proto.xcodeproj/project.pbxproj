@@ -14,6 +14,7 @@
 		B05A061C1DD5368400CE514D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B05A061A1DD5368400CE514D /* LaunchScreen.storyboard */; };
 		B05A06271DD5368500CE514D /* protoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06261DD5368500CE514D /* protoTests.swift */; };
 		B05A06321DD5368500CE514D /* protoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06311DD5368500CE514D /* protoUITests.swift */; };
+		B05A06401DD536D500CE514D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B05A063F1DD536D500CE514D /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B05A062D1DD5368500CE514D /* protoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = protoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B05A06311DD5368500CE514D /* protoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protoUITests.swift; sourceTree = "<group>"; };
 		B05A06331DD5368500CE514D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B05A063F1DD536D500CE514D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +99,11 @@
 		B05A06101DD5368400CE514D /* proto */ = {
 			isa = PBXGroup;
 			children = (
-				B05A06111DD5368400CE514D /* AppDelegate.swift */,
-				B05A06131DD5368400CE514D /* ViewController.swift */,
-				B05A06151DD5368400CE514D /* Main.storyboard */,
-				B05A06181DD5368400CE514D /* Assets.xcassets */,
-				B05A061A1DD5368400CE514D /* LaunchScreen.storyboard */,
-				B05A061D1DD5368400CE514D /* Info.plist */,
+				B05A06451DD5373B00CE514D /* Views */,
+				B05A06411DD536FC00CE514D /* Configuration */,
+				B05A06421DD5371600CE514D /* Application */,
+				B05A06431DD5371E00CE514D /* Controllers */,
+				B05A06441DD5373200CE514D /* Supporting */,
 			);
 			path = proto;
 			sourceTree = "<group>";
@@ -123,6 +124,56 @@
 				B05A06331DD5368500CE514D /* Info.plist */,
 			);
 			path = protoUITests;
+			sourceTree = "<group>";
+		};
+		B05A06411DD536FC00CE514D /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				B05A063F1DD536D500CE514D /* Podfile */,
+				B05A061D1DD5368400CE514D /* Info.plist */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		B05A06421DD5371600CE514D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B05A06111DD5368400CE514D /* AppDelegate.swift */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		B05A06431DD5371E00CE514D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B05A06131DD5368400CE514D /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B05A06441DD5373200CE514D /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				B05A06181DD5368400CE514D /* Assets.xcassets */,
+			);
+			name = Supporting;
+			sourceTree = "<group>";
+		};
+		B05A06451DD5373B00CE514D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B05A06461DD5374100CE514D /* Storyboards */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B05A06461DD5374100CE514D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B05A06151DD5368400CE514D /* Main.storyboard */,
+				B05A061A1DD5368400CE514D /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +288,7 @@
 			files = (
 				B05A061C1DD5368400CE514D /* LaunchScreen.storyboard in Resources */,
 				B05A06191DD5368400CE514D /* Assets.xcassets in Resources */,
+				B05A06401DD536D500CE514D /* Podfile in Resources */,
 				B05A06171DD5368400CE514D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
