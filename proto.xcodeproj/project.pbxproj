@@ -17,6 +17,41 @@
 		B05A06271DD5368500CE514D /* protoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06261DD5368500CE514D /* protoTests.swift */; };
 		B05A06321DD5368500CE514D /* protoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06311DD5368500CE514D /* protoUITests.swift */; };
 		B05A06401DD536D500CE514D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B05A063F1DD536D500CE514D /* Podfile */; };
+		B05A06631DD5397000CE514D /* NextLevel+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A065B1DD5397000CE514D /* NextLevel+Additions.swift */; };
+		B05A06641DD5397000CE514D /* NextLevel+AVFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A065C1DD5397000CE514D /* NextLevel+AVFoundation.swift */; };
+		B05A06651DD5397000CE514D /* NextLevel+Metadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A065D1DD5397000CE514D /* NextLevel+Metadata.swift */; };
+		B05A06661DD5397000CE514D /* NextLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A065F1DD5397000CE514D /* NextLevel.swift */; };
+		B05A06671DD5397000CE514D /* NextLevelClip.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06601DD5397000CE514D /* NextLevelClip.swift */; };
+		B05A06681DD5397000CE514D /* NextLevelConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06611DD5397000CE514D /* NextLevelConfiguration.swift */; };
+		B05A06691DD5397000CE514D /* NextLevelSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06621DD5397000CE514D /* NextLevelSession.swift */; };
+		B05A066D1DD5397700CE514D /* MKGradientGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A066B1DD5397700CE514D /* MKGradientGenerator.swift */; };
+		B05A066E1DD5397700CE514D /* MKRingProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A066C1DD5397700CE514D /* MKRingProgressView.swift */; };
+		B05A068D1DD5398100CE514D /* CameraView.strings in Resources */ = {isa = PBXBuildFile; fileRef = B05A06701DD5398100CE514D /* CameraView.strings */; };
+		B05A068E1DD5398100CE514D /* CameraViewAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B05A06711DD5398100CE514D /* CameraViewAssets.xcassets */; };
+		B05A068F1DD5398100CE514D /* CameraGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06731DD5398100CE514D /* CameraGlobals.swift */; };
+		B05A06901DD5398100CE514D /* CameraShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06741DD5398100CE514D /* CameraShot.swift */; };
+		B05A06911DD5398100CE514D /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06751DD5398100CE514D /* ImageFetcher.swift */; };
+		B05A06921DD5398100CE514D /* PhotoLibraryAuthorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06761DD5398100CE514D /* PhotoLibraryAuthorizer.swift */; };
+		B05A06931DD5398100CE514D /* SingleImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06771DD5398100CE514D /* SingleImageFetcher.swift */; };
+		B05A06941DD5398100CE514D /* SingleImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06781DD5398100CE514D /* SingleImageSaver.swift */; };
+		B05A06951DD5398100CE514D /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06791DD5398100CE514D /* UIButtonExtensions.swift */; };
+		B05A06961DD5398100CE514D /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A067A1DD5398100CE514D /* UIViewExtensions.swift */; };
+		B05A06971DD5398100CE514D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A067B1DD5398100CE514D /* Utilities.swift */; };
+		B05A06981DD5398100CE514D /* VolumeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A067C1DD5398100CE514D /* VolumeControl.swift */; };
+		B05A06991DD5398100CE514D /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A067E1DD5398100CE514D /* CameraViewController.swift */; };
+		B05A069A1DD5398100CE514D /* CameraViewControllerConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A067F1DD5398100CE514D /* CameraViewControllerConstraint.swift */; };
+		B05A069B1DD5398100CE514D /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06801DD5398100CE514D /* ConfirmViewController.swift */; };
+		B05A069C1DD5398100CE514D /* ConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B05A06811DD5398100CE514D /* ConfirmViewController.xib */; };
+		B05A069D1DD5398100CE514D /* PhotoLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06821DD5398100CE514D /* PhotoLibraryViewController.swift */; };
+		B05A069E1DD5398100CE514D /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06841DD5398100CE514D /* CameraView.swift */; };
+		B05A069F1DD5398100CE514D /* CropOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06851DD5398100CE514D /* CropOverlay.swift */; };
+		B05A06A01DD5398100CE514D /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06861DD5398100CE514D /* ImageCell.swift */; };
+		B05A06A11DD5398100CE514D /* PermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06871DD5398100CE514D /* PermissionsView.swift */; };
+		B05A06A21DD5398100CE514D /* MKRingProgressGroupButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06891DD5398100CE514D /* MKRingProgressGroupButton.swift */; };
+		B05A06A31DD5398100CE514D /* MKRingProgressGroupResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A068A1DD5398100CE514D /* MKRingProgressGroupResultsView.swift */; };
+		B05A06A41DD5398100CE514D /* MKRingProgressGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A068B1DD5398100CE514D /* MKRingProgressGroupView.swift */; };
+		B05A06A51DD5398100CE514D /* MKRingProgressGroupVotingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A068C1DD5398100CE514D /* MKRingProgressGroupVotingView.swift */; };
+		B05A06A71DD539A800CE514D /* VideoCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06A61DD539A800CE514D /* VideoCameraViewController.swift */; };
 		DFDCB47CEF950A2BAD967301 /* Pods_proto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698E0B2B5D162E8F18556010 /* Pods_proto.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +94,42 @@
 		B05A06311DD5368500CE514D /* protoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protoUITests.swift; sourceTree = "<group>"; };
 		B05A06331DD5368500CE514D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B05A063F1DD536D500CE514D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		B05A065B1DD5397000CE514D /* NextLevel+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NextLevel+Additions.swift"; sourceTree = "<group>"; };
+		B05A065C1DD5397000CE514D /* NextLevel+AVFoundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NextLevel+AVFoundation.swift"; sourceTree = "<group>"; };
+		B05A065D1DD5397000CE514D /* NextLevel+Metadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NextLevel+Metadata.swift"; sourceTree = "<group>"; };
+		B05A065E1DD5397000CE514D /* NextLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextLevel.h; sourceTree = "<group>"; };
+		B05A065F1DD5397000CE514D /* NextLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextLevel.swift; sourceTree = "<group>"; };
+		B05A06601DD5397000CE514D /* NextLevelClip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextLevelClip.swift; sourceTree = "<group>"; };
+		B05A06611DD5397000CE514D /* NextLevelConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextLevelConfiguration.swift; sourceTree = "<group>"; };
+		B05A06621DD5397000CE514D /* NextLevelSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextLevelSession.swift; sourceTree = "<group>"; };
+		B05A066B1DD5397700CE514D /* MKGradientGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKGradientGenerator.swift; sourceTree = "<group>"; };
+		B05A066C1DD5397700CE514D /* MKRingProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKRingProgressView.swift; sourceTree = "<group>"; };
+		B05A06701DD5398100CE514D /* CameraView.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = CameraView.strings; sourceTree = "<group>"; };
+		B05A06711DD5398100CE514D /* CameraViewAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CameraViewAssets.xcassets; sourceTree = "<group>"; };
+		B05A06731DD5398100CE514D /* CameraGlobals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraGlobals.swift; sourceTree = "<group>"; };
+		B05A06741DD5398100CE514D /* CameraShot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraShot.swift; sourceTree = "<group>"; };
+		B05A06751DD5398100CE514D /* ImageFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFetcher.swift; sourceTree = "<group>"; };
+		B05A06761DD5398100CE514D /* PhotoLibraryAuthorizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoLibraryAuthorizer.swift; sourceTree = "<group>"; };
+		B05A06771DD5398100CE514D /* SingleImageFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleImageFetcher.swift; sourceTree = "<group>"; };
+		B05A06781DD5398100CE514D /* SingleImageSaver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleImageSaver.swift; sourceTree = "<group>"; };
+		B05A06791DD5398100CE514D /* UIButtonExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtensions.swift; sourceTree = "<group>"; };
+		B05A067A1DD5398100CE514D /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		B05A067B1DD5398100CE514D /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		B05A067C1DD5398100CE514D /* VolumeControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeControl.swift; sourceTree = "<group>"; };
+		B05A067E1DD5398100CE514D /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		B05A067F1DD5398100CE514D /* CameraViewControllerConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewControllerConstraint.swift; sourceTree = "<group>"; };
+		B05A06801DD5398100CE514D /* ConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
+		B05A06811DD5398100CE514D /* ConfirmViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfirmViewController.xib; sourceTree = "<group>"; };
+		B05A06821DD5398100CE514D /* PhotoLibraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoLibraryViewController.swift; sourceTree = "<group>"; };
+		B05A06841DD5398100CE514D /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		B05A06851DD5398100CE514D /* CropOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropOverlay.swift; sourceTree = "<group>"; };
+		B05A06861DD5398100CE514D /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		B05A06871DD5398100CE514D /* PermissionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermissionsView.swift; sourceTree = "<group>"; };
+		B05A06891DD5398100CE514D /* MKRingProgressGroupButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKRingProgressGroupButton.swift; sourceTree = "<group>"; };
+		B05A068A1DD5398100CE514D /* MKRingProgressGroupResultsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKRingProgressGroupResultsView.swift; sourceTree = "<group>"; };
+		B05A068B1DD5398100CE514D /* MKRingProgressGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKRingProgressGroupView.swift; sourceTree = "<group>"; };
+		B05A068C1DD5398100CE514D /* MKRingProgressGroupVotingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKRingProgressGroupVotingView.swift; sourceTree = "<group>"; };
+		B05A06A61DD539A800CE514D /* VideoCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCameraViewController.swift; sourceTree = "<group>"; };
 		EDDC1D1E7CEC64A24580297E /* Pods-proto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proto.release.xcconfig"; path = "proto/Configuration/Pods/Target Support Files/Pods-proto/Pods-proto.release.xcconfig"; sourceTree = "<group>"; };
 		F288DDD949D591419079C4F9 /* Pods-protoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-protoUITests.release.xcconfig"; path = "proto/Configuration/Pods/Target Support Files/Pods-protoUITests/Pods-protoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,6 +210,7 @@
 		B05A06101DD5368400CE514D /* proto */ = {
 			isa = PBXGroup;
 			children = (
+				B05A06471DD5387700CE514D /* Libraries */,
 				B05A06421DD5371600CE514D /* Application */,
 				B05A06411DD536FC00CE514D /* Configuration */,
 				B05A06431DD5371E00CE514D /* Controllers */,
@@ -187,6 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				B05A06131DD5368400CE514D /* ViewController.swift */,
+				B05A06A61DD539A800CE514D /* VideoCameraViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -214,6 +287,116 @@
 				B05A06151DD5368400CE514D /* Main.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B05A06471DD5387700CE514D /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				B05A066F1DD5398100CE514D /* ALCameraViewController */,
+				B05A06881DD5398100CE514D /* MKRingProgressGroup */,
+				B05A066A1DD5397700CE514D /* MKRingProgressView */,
+				B05A06481DD5389800CE514D /* NextLevel */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		B05A06481DD5389800CE514D /* NextLevel */ = {
+			isa = PBXGroup;
+			children = (
+				B05A065A1DD5397000CE514D /* Sources */,
+			);
+			name = NextLevel;
+			sourceTree = "<group>";
+		};
+		B05A065A1DD5397000CE514D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B05A065B1DD5397000CE514D /* NextLevel+Additions.swift */,
+				B05A065C1DD5397000CE514D /* NextLevel+AVFoundation.swift */,
+				B05A065D1DD5397000CE514D /* NextLevel+Metadata.swift */,
+				B05A065E1DD5397000CE514D /* NextLevel.h */,
+				B05A065F1DD5397000CE514D /* NextLevel.swift */,
+				B05A06601DD5397000CE514D /* NextLevelClip.swift */,
+				B05A06611DD5397000CE514D /* NextLevelConfiguration.swift */,
+				B05A06621DD5397000CE514D /* NextLevelSession.swift */,
+			);
+			name = Sources;
+			path = Libraries/NextLevel/Sources;
+			sourceTree = "<group>";
+		};
+		B05A066A1DD5397700CE514D /* MKRingProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				B05A066B1DD5397700CE514D /* MKGradientGenerator.swift */,
+				B05A066C1DD5397700CE514D /* MKRingProgressView.swift */,
+			);
+			name = MKRingProgressView;
+			path = Libraries/MKRingProgressView;
+			sourceTree = "<group>";
+		};
+		B05A066F1DD5398100CE514D /* ALCameraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B05A06701DD5398100CE514D /* CameraView.strings */,
+				B05A06711DD5398100CE514D /* CameraViewAssets.xcassets */,
+				B05A06721DD5398100CE514D /* Utilities */,
+				B05A067D1DD5398100CE514D /* ViewController */,
+				B05A06831DD5398100CE514D /* Views */,
+			);
+			name = ALCameraViewController;
+			path = Libraries/ALCameraViewController;
+			sourceTree = "<group>";
+		};
+		B05A06721DD5398100CE514D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B05A06731DD5398100CE514D /* CameraGlobals.swift */,
+				B05A06741DD5398100CE514D /* CameraShot.swift */,
+				B05A06751DD5398100CE514D /* ImageFetcher.swift */,
+				B05A06761DD5398100CE514D /* PhotoLibraryAuthorizer.swift */,
+				B05A06771DD5398100CE514D /* SingleImageFetcher.swift */,
+				B05A06781DD5398100CE514D /* SingleImageSaver.swift */,
+				B05A06791DD5398100CE514D /* UIButtonExtensions.swift */,
+				B05A067A1DD5398100CE514D /* UIViewExtensions.swift */,
+				B05A067B1DD5398100CE514D /* Utilities.swift */,
+				B05A067C1DD5398100CE514D /* VolumeControl.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B05A067D1DD5398100CE514D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B05A067E1DD5398100CE514D /* CameraViewController.swift */,
+				B05A067F1DD5398100CE514D /* CameraViewControllerConstraint.swift */,
+				B05A06801DD5398100CE514D /* ConfirmViewController.swift */,
+				B05A06811DD5398100CE514D /* ConfirmViewController.xib */,
+				B05A06821DD5398100CE514D /* PhotoLibraryViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B05A06831DD5398100CE514D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B05A06841DD5398100CE514D /* CameraView.swift */,
+				B05A06851DD5398100CE514D /* CropOverlay.swift */,
+				B05A06861DD5398100CE514D /* ImageCell.swift */,
+				B05A06871DD5398100CE514D /* PermissionsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B05A06881DD5398100CE514D /* MKRingProgressGroup */ = {
+			isa = PBXGroup;
+			children = (
+				B05A06891DD5398100CE514D /* MKRingProgressGroupButton.swift */,
+				B05A068A1DD5398100CE514D /* MKRingProgressGroupResultsView.swift */,
+				B05A068B1DD5398100CE514D /* MKRingProgressGroupView.swift */,
+				B05A068C1DD5398100CE514D /* MKRingProgressGroupVotingView.swift */,
+			);
+			name = MKRingProgressGroup;
+			path = Libraries/MKRingProgressGroup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,9 +517,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B05A069C1DD5398100CE514D /* ConfirmViewController.xib in Resources */,
 				B05A061C1DD5368400CE514D /* LaunchScreen.storyboard in Resources */,
 				B05A06191DD5368400CE514D /* Assets.xcassets in Resources */,
+				B05A068D1DD5398100CE514D /* CameraView.strings in Resources */,
 				B05A06401DD536D500CE514D /* Podfile in Resources */,
+				B05A068E1DD5398100CE514D /* CameraViewAssets.xcassets in Resources */,
 				B05A06171DD5368400CE514D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,8 +671,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B05A06941DD5398100CE514D /* SingleImageSaver.swift in Sources */,
+				B05A06921DD5398100CE514D /* PhotoLibraryAuthorizer.swift in Sources */,
+				B05A06631DD5397000CE514D /* NextLevel+Additions.swift in Sources */,
+				B05A069B1DD5398100CE514D /* ConfirmViewController.swift in Sources */,
+				B05A06A21DD5398100CE514D /* MKRingProgressGroupButton.swift in Sources */,
+				B05A06661DD5397000CE514D /* NextLevel.swift in Sources */,
+				B05A06A31DD5398100CE514D /* MKRingProgressGroupResultsView.swift in Sources */,
+				B05A06A01DD5398100CE514D /* ImageCell.swift in Sources */,
+				B05A066E1DD5397700CE514D /* MKRingProgressView.swift in Sources */,
+				B05A06671DD5397000CE514D /* NextLevelClip.swift in Sources */,
+				B05A069D1DD5398100CE514D /* PhotoLibraryViewController.swift in Sources */,
+				B05A066D1DD5397700CE514D /* MKGradientGenerator.swift in Sources */,
 				B05A06141DD5368400CE514D /* ViewController.swift in Sources */,
+				B05A06A71DD539A800CE514D /* VideoCameraViewController.swift in Sources */,
 				B05A06121DD5368400CE514D /* AppDelegate.swift in Sources */,
+				B05A06641DD5397000CE514D /* NextLevel+AVFoundation.swift in Sources */,
+				B05A06961DD5398100CE514D /* UIViewExtensions.swift in Sources */,
+				B05A06991DD5398100CE514D /* CameraViewController.swift in Sources */,
+				B05A06931DD5398100CE514D /* SingleImageFetcher.swift in Sources */,
+				B05A069F1DD5398100CE514D /* CropOverlay.swift in Sources */,
+				B05A069E1DD5398100CE514D /* CameraView.swift in Sources */,
+				B05A06681DD5397000CE514D /* NextLevelConfiguration.swift in Sources */,
+				B05A06691DD5397000CE514D /* NextLevelSession.swift in Sources */,
+				B05A06981DD5398100CE514D /* VolumeControl.swift in Sources */,
+				B05A06A51DD5398100CE514D /* MKRingProgressGroupVotingView.swift in Sources */,
+				B05A06901DD5398100CE514D /* CameraShot.swift in Sources */,
+				B05A06911DD5398100CE514D /* ImageFetcher.swift in Sources */,
+				B05A06A11DD5398100CE514D /* PermissionsView.swift in Sources */,
+				B05A06951DD5398100CE514D /* UIButtonExtensions.swift in Sources */,
+				B05A06651DD5397000CE514D /* NextLevel+Metadata.swift in Sources */,
+				B05A06971DD5398100CE514D /* Utilities.swift in Sources */,
+				B05A06A41DD5398100CE514D /* MKRingProgressGroupView.swift in Sources */,
+				B05A069A1DD5398100CE514D /* CameraViewControllerConstraint.swift in Sources */,
+				B05A068F1DD5398100CE514D /* CameraGlobals.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
