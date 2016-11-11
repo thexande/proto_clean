@@ -24,16 +24,10 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Rp-w5-4of">
                                 <rect key="frame" x="46" y="51" width="282" height="276"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DiG-MH-lyR">
-                                        <rect key="frame" x="126" y="123" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Play"/>
-                                        <connections>
-                                            <action selector="playOptionOneVideoClicked:" destination="DK7-Ew-YBv" eventType="touchUpInside" id="3Nk-hW-pYr"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Skb-Ab-vJp">
+                                <rect key="frame" x="46" y="334" width="282" height="276"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0R1-Kb-fm0">
                                 <rect key="frame" x="46" y="51" width="282" height="277"/>
@@ -81,7 +75,7 @@
                         <outlet property="optionOneImageView" destination="0R1-Kb-fm0" id="JUT-rU-hPa"/>
                         <outlet property="optionOneVideoView" destination="9Rp-w5-4of" id="kYf-qc-B5F"/>
                         <outlet property="optionTwoImageView" destination="jSs-pp-iam" id="vFW-Er-Y63"/>
-                        <outlet property="playOptionOneVideo" destination="DiG-MH-lyR" id="Lau-pQ-lrQ"/>
+                        <outlet property="optionTwoVideoView" destination="Skb-Ab-vJp" id="GuN-EK-yZK"/>
                         <outlet property="pollFormatSegment" destination="maP-vF-mf9" id="PVB-PX-dQ7"/>
                         <segue destination="KiF-fd-kx3" kind="presentation" identifier="showVideoCamera" id="t0a-9z-t7F"/>
                     </connections>
@@ -334,6 +328,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="bar-j3-Wps"/>
+        <segue reference="Ih8-CZ-FVB"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -35,6 +35,7 @@ protocol VideoCameraModalViewControllerDelegate {
 class VideoCameraViewController: UIViewController {
     var delegate: VideoCameraModalViewControllerDelegate? = nil
     var videoURL: URL?
+    public var selectedOption: Int?
     
     // MARK: - UIViewController
     
@@ -77,12 +78,16 @@ class VideoCameraViewController: UIViewController {
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destination = segue.destination as! CreatePollViewController
         if (segue.identifier == "showCreatePoll") {
-            let destination = segue.destination as! CreatePollViewController
-            destination.optionOneVideoURL = self.videoURL
-            //destination.playVideo(videoURL: )
+            if (self.selectedOption == 1) {
+                destination.optionOneVideoURL = self.videoURL
+            } else if (self.selectedOption == 2) {
+                destination.optionTwoVideoURL = self.videoURL
+            }
         }
     }
+    
     // MARK: - view lifecycle
     
     override func viewDidLoad() {

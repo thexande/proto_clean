@@ -56,6 +56,7 @@
 		B05A06B21DD53AE200CE514D /* ModalViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06B11DD53AE200CE514D /* ModalViewControllerDelegate.swift */; };
 		B05A06B41DD53B5900CE514D /* CreatePollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A06B31DD53B5900CE514D /* CreatePollViewController.swift */; };
 		B0F3016B1DD5405400D2D3B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0F3016A1DD5405400D2D3B9 /* Images.xcassets */; };
+		B0F3016D1DD55B6500D2D3B9 /* PlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F3016C1DD55B6500D2D3B9 /* PlayerHelper.swift */; };
 		B1ADE2AE72845BE19CA532F2 /* Pods_proto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70F1E30780B3EC8577529DD /* Pods_proto.framework */; };
 		FE8ACE15AE87C72952D325FE /* Pods_protoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D17047E0AE40DA131E17311B /* Pods_protoUITests.framework */; };
 /* End PBXBuildFile section */
@@ -141,6 +142,7 @@
 		B05A06B11DD53AE200CE514D /* ModalViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewControllerDelegate.swift; sourceTree = "<group>"; };
 		B05A06B31DD53B5900CE514D /* CreatePollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePollViewController.swift; sourceTree = "<group>"; };
 		B0F3016A1DD5405400D2D3B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B0F3016C1DD55B6500D2D3B9 /* PlayerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerHelper.swift; sourceTree = "<group>"; };
 		D17047E0AE40DA131E17311B /* Pods_protoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_protoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E70F1E30780B3EC8577529DD /* Pods_proto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_proto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -403,6 +405,7 @@
 				B05A06A91DD53AA100CE514D /* ImageHelper.swift */,
 				B05A06AA1DD53AA100CE514D /* VideoHelper.swift */,
 				B05A06AB1DD53AA100CE514D /* ViewHelper.swift */,
+				B0F3016C1DD55B6500D2D3B9 /* PlayerHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -734,6 +737,7 @@
 				B05A06A11DD5398100CE514D /* PermissionsView.swift in Sources */,
 				B05A06951DD5398100CE514D /* UIButtonExtensions.swift in Sources */,
 				B05A06651DD5397000CE514D /* NextLevel+Metadata.swift in Sources */,
+				B0F3016D1DD55B6500D2D3B9 /* PlayerHelper.swift in Sources */,
 				B05A06971DD5398100CE514D /* Utilities.swift in Sources */,
 				B05A06A41DD5398100CE514D /* MKRingProgressGroupView.swift in Sources */,
 				B05A069A1DD5398100CE514D /* CameraViewControllerConstraint.swift in Sources */,
