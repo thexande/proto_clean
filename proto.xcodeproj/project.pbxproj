@@ -191,13 +191,13 @@
 		B05A06051DD5368400CE514D = {
 			isa = PBXGroup;
 			children = (
-				B0F3016E1DD576F700D2D3B9 /* Podfile */,
+				629BCDBB36299FFB94C40CD8 /* Frameworks */,
+				BF81248EE8979FAEFA07615D /* Pods */,
 				B05A060F1DD5368400CE514D /* Products */,
 				B05A06101DD5368400CE514D /* proto */,
 				B05A06251DD5368500CE514D /* protoTests */,
 				B05A06301DD5368500CE514D /* protoUITests */,
-				BF81248EE8979FAEFA07615D /* Pods */,
-				629BCDBB36299FFB94C40CD8 /* Frameworks */,
+				B0F3016E1DD576F700D2D3B9 /* Podfile */,
 			);
 			sourceTree = "<group>";
 		};
@@ -310,8 +310,8 @@
 		B05A06481DD5389800CE514D /* NextLevel */ = {
 			isa = PBXGroup;
 			children = (
-				B0F3016A1DD5405400D2D3B9 /* Images.xcassets */,
 				B05A065A1DD5397000CE514D /* Sources */,
+				B0F3016A1DD5405400D2D3B9 /* Images.xcassets */,
 			);
 			path = NextLevel;
 			sourceTree = "<group>";
@@ -407,9 +407,9 @@
 			isa = PBXGroup;
 			children = (
 				B05A06A91DD53AA100CE514D /* ImageHelper.swift */,
+				B0F3016C1DD55B6500D2D3B9 /* PlayerHelper.swift */,
 				B05A06AA1DD53AA100CE514D /* VideoHelper.swift */,
 				B05A06AB1DD53AA100CE514D /* ViewHelper.swift */,
-				B0F3016C1DD55B6500D2D3B9 /* PlayerHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
