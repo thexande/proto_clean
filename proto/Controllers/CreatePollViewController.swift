@@ -27,7 +27,6 @@ class CreatePollViewController: UIViewController, PlayerDelegate {
     @IBOutlet weak var optionTwoImageView: UIImageView!
     @IBOutlet weak var optionOneVideoView: UIView!
     @IBOutlet weak var optionTwoVideoView: UIView!
-    @IBOutlet weak var playOptionOneVideo: UIButton!
     @IBOutlet var mainView: UIView!
     
     // Interface Actions
@@ -42,8 +41,19 @@ class CreatePollViewController: UIViewController, PlayerDelegate {
         ImageHelper.circleCrop(imageView: optionOneImageView)
         ImageHelper.circleCrop(imageView: optionTwoImageView)
         ViewHelper.circleCrop(view: optionOneVideoView)
+        ViewHelper.circleCrop(view: optionTwoImageView)
         
         // set video preview images and bring to front
+        if(self.optionOneVideoURL != nil && self.optionTwoVideoURL != nil) {
+            self.optionOneImageView.image = VideoHelper.getVideoFirstFrame(videoURL: self.optionOneVideoURL!)
+            mainView.bringSubview(toFront: optionOneVideoView)
+            playVideo(videoURL: self.optionOneVideoURL!, playerInstance: Player1)
+            
+            self.optionTwoImageView.image = VideoHelper.getVideoFirstFrame(videoURL: self.optionTwoVideoURL!)
+            mainView.bringSubview(toFront: optionTwoVideoView)
+            playVideo(videoURL: self.optionTwoVideoURL!, playerInstance: Player2)
+        }
+        
         if (self.optionOneVideoURL != nil) {
             self.optionOneImageView.image = VideoHelper.getVideoFirstFrame(videoURL: self.optionOneVideoURL!)
             mainView.bringSubview(toFront: optionOneVideoView)
@@ -51,7 +61,7 @@ class CreatePollViewController: UIViewController, PlayerDelegate {
         }
         if (self.optionTwoVideoURL != nil) {
             self.optionTwoImageView.image = VideoHelper.getVideoFirstFrame(videoURL: self.optionTwoVideoURL!)
-            mainView.bringSubview(toFront: optionOneVideoView)
+            mainView.bringSubview(toFront: optionTwoVideoView)
             playVideo(videoURL: self.optionTwoVideoURL!, playerInstance: Player2)
         }
     }
@@ -157,7 +167,6 @@ class CreatePollViewController: UIViewController, PlayerDelegate {
     }
     
     @IBAction func addOptionOne(_ sender: AnyObject) {
-        
         if(currentSegmentState() == "photo"){
             let cameraViewController = CameraViewController(croppingEnabled: croppingEnabled, allowsLibraryAccess: libraryEnabled) { [weak self] image, asset in
                 //self?.imageView.image = image
@@ -194,7 +203,7 @@ class CreatePollViewController: UIViewController, PlayerDelegate {
         else if(currentSegmentState() == "video") {
             // have we recorded video yet?
             if(self.optionTwoVideoURL != nil) {
-                self.mainView.bringSubview(toFront: optionOneVideoView)
+                self.mainView.bringSubview(toFront: optionTwoImageView)
                 self.playVideo(videoURL: self.optionTwoVideoURL!, playerInstance: Player1)
             } else {
                 self.selectedOption = 2

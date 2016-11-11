@@ -7,8 +7,10 @@ target 'proto' do
   use_frameworks!
 
   # Pods for proto
-  # pod 'Firebase'
     pod "Player", "~> 0.2.0"
+    pod 'Firebase/Core'
+    pod 'Firebase/Database'
+    pod 'Firebase/Auth'
 
     post_install do |installer|
     installer.pods_project.targets.each do |target|
