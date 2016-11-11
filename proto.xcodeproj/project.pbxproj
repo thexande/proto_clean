@@ -59,6 +59,12 @@
 		B0F3016D1DD55B6500D2D3B9 /* PlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F3016C1DD55B6500D2D3B9 /* PlayerHelper.swift */; };
 		B0F3016F1DD576F700D2D3B9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B0F3016E1DD576F700D2D3B9 /* Podfile */; };
 		B0F301711DD577AB00D2D3B9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0F301701DD577AB00D2D3B9 /* GoogleService-Info.plist */; };
+		B0F301781DD583DC00D2D3B9 /* AnimatedULogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F301731DD583DC00D2D3B9 /* AnimatedULogoView.swift */; };
+		B0F301791DD583DC00D2D3B9 /* Chimes.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0F301741DD583DC00D2D3B9 /* Chimes.xcassets */; };
+		B0F3017A1DD583DC00D2D3B9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F301751DD583DC00D2D3B9 /* Constants.swift */; };
+		B0F3017B1DD583DC00D2D3B9 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F301761DD583DC00D2D3B9 /* SplashViewController.swift */; };
+		B0F3017C1DD583DC00D2D3B9 /* TileGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F301771DD583DC00D2D3B9 /* TileGridView.swift */; };
+		B0F3017E1DD584B300D2D3B9 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F3017D1DD584B300D2D3B9 /* TileView.swift */; };
 		B1ADE2AE72845BE19CA532F2 /* Pods_proto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70F1E30780B3EC8577529DD /* Pods_proto.framework */; };
 		FE8ACE15AE87C72952D325FE /* Pods_protoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D17047E0AE40DA131E17311B /* Pods_protoUITests.framework */; };
 /* End PBXBuildFile section */
@@ -146,6 +152,12 @@
 		B0F3016C1DD55B6500D2D3B9 /* PlayerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerHelper.swift; sourceTree = "<group>"; };
 		B0F3016E1DD576F700D2D3B9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		B0F301701DD577AB00D2D3B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B0F301731DD583DC00D2D3B9 /* AnimatedULogoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedULogoView.swift; sourceTree = "<group>"; };
+		B0F301741DD583DC00D2D3B9 /* Chimes.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Chimes.xcassets; sourceTree = "<group>"; };
+		B0F301751DD583DC00D2D3B9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B0F301761DD583DC00D2D3B9 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		B0F301771DD583DC00D2D3B9 /* TileGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileGridView.swift; sourceTree = "<group>"; };
+		B0F3017D1DD584B300D2D3B9 /* TileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
 		D17047E0AE40DA131E17311B /* Pods_protoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_protoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E70F1E30780B3EC8577529DD /* Pods_proto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_proto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -303,6 +315,7 @@
 				B05A06881DD5398100CE514D /* MKRingProgressGroup */,
 				B05A066A1DD5397700CE514D /* MKRingProgressView */,
 				B05A06481DD5389800CE514D /* NextLevel */,
+				B0F301721DD583DC00D2D3B9 /* SplashScreenUI */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
@@ -420,6 +433,19 @@
 				B05A06B11DD53AE200CE514D /* ModalViewControllerDelegate.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B0F301721DD583DC00D2D3B9 /* SplashScreenUI */ = {
+			isa = PBXGroup;
+			children = (
+				B0F301731DD583DC00D2D3B9 /* AnimatedULogoView.swift */,
+				B0F301741DD583DC00D2D3B9 /* Chimes.xcassets */,
+				B0F301751DD583DC00D2D3B9 /* Constants.swift */,
+				B0F301761DD583DC00D2D3B9 /* SplashViewController.swift */,
+				B0F301771DD583DC00D2D3B9 /* TileGridView.swift */,
+				B0F3017D1DD584B300D2D3B9 /* TileView.swift */,
+			);
+			path = SplashScreenUI;
 			sourceTree = "<group>";
 		};
 		BF81248EE8979FAEFA07615D /* Pods */ = {
@@ -553,6 +579,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0F301791DD583DC00D2D3B9 /* Chimes.xcassets in Resources */,
 				B05A069C1DD5398100CE514D /* ConfirmViewController.xib in Resources */,
 				B05A061C1DD5368400CE514D /* LaunchScreen.storyboard in Resources */,
 				B0F301711DD577AB00D2D3B9 /* GoogleService-Info.plist in Resources */,
@@ -719,12 +746,17 @@
 				B05A06A31DD5398100CE514D /* MKRingProgressGroupResultsView.swift in Sources */,
 				B05A06A01DD5398100CE514D /* ImageCell.swift in Sources */,
 				B05A06B41DD53B5900CE514D /* CreatePollViewController.swift in Sources */,
+				B0F301781DD583DC00D2D3B9 /* AnimatedULogoView.swift in Sources */,
+				B0F3017A1DD583DC00D2D3B9 /* Constants.swift in Sources */,
 				B05A066E1DD5397700CE514D /* MKRingProgressView.swift in Sources */,
+				B0F3017E1DD584B300D2D3B9 /* TileView.swift in Sources */,
 				B05A06671DD5397000CE514D /* NextLevelClip.swift in Sources */,
 				B05A069D1DD5398100CE514D /* PhotoLibraryViewController.swift in Sources */,
 				B05A066D1DD5397700CE514D /* MKGradientGenerator.swift in Sources */,
+				B0F3017C1DD583DC00D2D3B9 /* TileGridView.swift in Sources */,
 				B05A06141DD5368400CE514D /* ViewController.swift in Sources */,
 				B05A06A71DD539A800CE514D /* VideoCameraViewController.swift in Sources */,
+				B0F3017B1DD583DC00D2D3B9 /* SplashViewController.swift in Sources */,
 				B05A06121DD5368400CE514D /* AppDelegate.swift in Sources */,
 				B05A06641DD5397000CE514D /* NextLevel+AVFoundation.swift in Sources */,
 				B05A06961DD5398100CE514D /* UIViewExtensions.swift in Sources */,
