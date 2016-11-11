@@ -22,8 +22,15 @@ class CreatePollViewController: UIViewController, VideoCameraModalViewController
     @IBOutlet weak var optionOneImageView: UIImageView!
     @IBOutlet weak var optionTwoImageView: UIImageView!
     @IBOutlet weak var optionOneVideoView: UIView!
+    @IBOutlet weak var playOptionOneVideo: UIButton!
     @IBOutlet var mainView: UIView!
     
+    // Interface Actions
+
+    
+    @IBAction func playOptionOneVideoClicked(_ sender: Any) {
+        playVideo(videoURL: self.optionOneVideoURL!)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,7 +44,10 @@ class CreatePollViewController: UIViewController, VideoCameraModalViewController
         if(self.optionOneVideoURL != nil) {
             //self.playVideo(videoURL: self.optionOneVideoURL!)
             self.optionOneImageView.image = VideoHelper.getVideoFirstFrame(videoURL: self.optionOneVideoURL!)
-            
+            mainView.bringSubview(toFront: optionOneVideoView)
+        }
+        if(self.optionTwoVideoUrl != nil) {
+            self.optionTwoImageView.image = VideoHelper.getVideoFirstFrame(videoURL: self.optionTwoVideoUrl!)
         }
     }
 
@@ -48,7 +58,6 @@ class CreatePollViewController: UIViewController, VideoCameraModalViewController
     
 
     internal func sendValue(value: URL) {
-        mainView.bringSubview(toFront: optionOneVideoView)
         print("in main view controller", value)
         self.playVideo(videoURL: value)
     }

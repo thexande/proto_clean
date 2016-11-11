@@ -29,6 +29,9 @@
                                         <rect key="frame" x="126" y="123" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Play"/>
+                                        <connections>
+                                            <action selector="playOptionOneVideoClicked:" destination="DK7-Ew-YBv" eventType="touchUpInside" id="3Nk-hW-pYr"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </view>
@@ -78,6 +81,7 @@
                         <outlet property="optionOneImageView" destination="0R1-Kb-fm0" id="JUT-rU-hPa"/>
                         <outlet property="optionOneVideoView" destination="9Rp-w5-4of" id="kYf-qc-B5F"/>
                         <outlet property="optionTwoImageView" destination="jSs-pp-iam" id="vFW-Er-Y63"/>
+                        <outlet property="playOptionOneVideo" destination="DiG-MH-lyR" id="Lau-pQ-lrQ"/>
                         <outlet property="pollFormatSegment" destination="maP-vF-mf9" id="PVB-PX-dQ7"/>
                         <segue destination="KiF-fd-kx3" kind="presentation" identifier="showVideoCamera" id="t0a-9z-t7F"/>
                     </connections>
