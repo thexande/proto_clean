@@ -11,6 +11,9 @@ target 'proto' do
     pod 'Firebase/Core'
     pod 'Firebase/Database'
     pod 'Firebase/Auth'
+    # pod 'SwiftyTimer'
+    # pod 'SlideMenuControllerSwift'
+    # pod 'PermissionScope'
 
     post_install do |installer|
     installer.pods_project.targets.each do |target|
